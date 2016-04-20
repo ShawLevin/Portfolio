@@ -3,14 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DDDBB1E-F6DB-460F-8F9F-B52622E2D9F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F9C5825-5AE3-491E-9CFF-34814DFB323A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FA169E1-2B36-4D14-AC0A-D0543F02EF9C}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Portfolio", "src\Portfolio\Portfolio.xproj", "{BE2FB500-2512-4E54-8313-C83BB08F6836}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Portfolio", "src\Portfolio\Portfolio.xproj", "{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE2FB500-2512-4E54-8313-C83BB08F6836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE2FB500-2512-4E54-8313-C83BB08F6836}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE2FB500-2512-4E54-8313-C83BB08F6836}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE2FB500-2512-4E54-8313-C83BB08F6836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BE2FB500-2512-4E54-8313-C83BB08F6836} = {5DDDBB1E-F6DB-460F-8F9F-B52622E2D9F7}
+		{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139} = {2F9C5825-5AE3-491E-9CFF-34814DFB323A}
 	EndGlobalSection
 EndGlobal

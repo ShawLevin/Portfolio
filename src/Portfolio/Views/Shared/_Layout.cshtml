@@ -30,8 +30,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Welcome</a></li>
+                        <li><a asp-controller="Home" asp-action="Bio">Bio</a></li>
+                        <li><a asp-controller="Home" asp-action="Work">Work</a></li>
+                        <li><a asp-controller="Home" asp-action="Community">Community</a></li>
                         <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                     </ul>
                     @await Html.PartialAsync("_LoginPartial")

@@ -13,9 +13,23 @@ namespace Portfolio.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Bio()
         {
             ViewData["Message"] = "Your application description page.";
+
+            return View();
+        }
+
+        public IActionResult Work()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Community()
+        {
+            ViewData["Message"] = "Your contact page.";
 
             return View();
         }
