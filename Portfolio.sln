@@ -7,6 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F9C5825-5AE
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Portfolio", "src\Portfolio\Portfolio.xproj", "{B81B0CBC-161A-4E16-8BA2-1DFB3F9B1139}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4ADDF64D-0B17-4E28-A512-87BD394FB442}"
+	ProjectSection(SolutionItems) = preProject
+		Install_DNX.ps1 = Install_DNX.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
